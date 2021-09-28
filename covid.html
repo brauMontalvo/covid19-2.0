@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html id="fondo" style="color:black">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hotel El Bosque">
+    <meta name="keywords" content="hotel">
+    <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estiloEquBlog.css" media="all" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+      $( function() {
+        $( "#draggable" ).draggable({ revert: true });
+        $( "#draggable2" ).draggable({ revert: true, helper: "clone" });
+      } );
+
+      $( function() {
+        $( "#accordion" ).accordion();
+      } );
+      </script>
+
+</head>
+<body>
+  <h1 class="animate__animated animate__backInLeft" id="titulo" >Información sobre el COVID-19</h1>
+  <ul>
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="covid.html" id="selected"> ¿Qué es el COVID-19? </a></li>
+    <li><a href="medidas.html"> Medidas preventivas </a></li>
+    <li><a href="test.php">¿Tengo o no COVID-19?</a></li>
+    <li><a href="hospitales.html">Hospitales en México</a></li>      
+  </ul>
+
+<p>En esta sección encontrará toda la información relevante acerca del COVID-19</p>
+
+<div id="accordion">
+  <h1 class="animate__animated animate__backInLeft">¿Que es el SARS-CoV-2</h1>
+  <div>
+    <p style="color: black;">La enfermedad por coronavirus (COVID‑19) es una enfermedad infecciosa provocada por el virus SARS-CoV-2.
+      La mayoría de las personas que padecen COVID‑19 sufren síntomas de intensidad leve a moderada y se recuperan sin 
+      necesidad de tratamientos especiales. Sin embargo, algunas personas desarrollan casos graves y necesitan atención médica.</p>
+  </div>
+  <h1 class="animate__animated animate__backInLeft">¿Cómo se propaga?</h1>  
+  <div>
+    <p style="color: black;">El virus puede propagarse desde la boca o la nariz de una persona infectada en forma de pequeñas partículas líquidas
+      que expulsa cuando tose, estornuda, habla, canta o respira. Estas partículas pueden ser desde pequeños aerosoles hasta gotitas respiratorias más grandes.
+      Puedes contagiarte de COVID‑19 si respiras cerca de una persona infectada o si tocas una superficie contaminada y, seguidamente, te tocas los ojos, la
+       nariz o la boca. El virus se propaga más fácilmente en espacios interiores o en aglomeraciones de personas.</p>
+       <center><img src="img/transmite.png" width="850" height="200" class="animate__animated animate__backInLeft" id="draggable" class="ui-widget-content"/></center>
+  </div>
+</div>
+
+<h1 class="animate__animated animate__backInLeft">¿Cuándo debo acudir al médico?</h1>  
+<p>Una persona debe sospechar de COVID-19 cuando presenta al menos dos de los siguientes síntomas:</p>
+<center><table>
+  <tr>
+    <th><img src="img/tos.png" id="imagen2"></th>
+    <th><img src="img/fiebre.png" id="imagen2"></th>
+    <th><img src="img/cabeza.png" id="imagen2"></th>
+  </tr>
+  <tr>
+    <th><h1>Tos / Estornudos</h1></th>
+    <th><h1>Fiebre</h1></th>
+    <th><h1>Dolor de cabeza</h1></th>
+  </tr>
+</table></center><br>
+
+<p>Y que se acompaña de alguno de los siguientes:</p>
+
+<center><table>
+  <tr>
+    <th><h1>Dificultad para respirar (casos más graves)</h1></th>
+    <th><img src="img/respirar.png" id="imagen2"></th>
+  </tr>
+  <tr>
+    <th><h1>Dolor de garganta</h1></th>
+    <th><img src="img/garganta.png" id="imagen2"></th>
+  </tr>
+  <tr>
+    <th><h1>Escurrimiento nasal</h1></th>
+    <th><img src="img/nasal.png" id="imagen2"></th>
+  </tr>
+  <tr>
+    <th><h1>Ojos rojos</h1></th>
+    <th><img src="img/ojos.png" id="imagen2"></th>
+  </tr>
+  <tr>
+    <th><h1>Dolores en músculos o articulaciones</h1></th>
+    <th><img src="img/musculos.png" id="imagen2"></th>
+  </tr>
+</table></center>
+
+
+
+
+
+</body>
+</html>

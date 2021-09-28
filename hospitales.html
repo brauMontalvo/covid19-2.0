@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html id="fondo">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Hotel El Bosque">
+    <meta name="keywords" content="hotel">
+    <meta http‐equiv="refresh" content="20;URL=./2PantillaBasica.htm" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estiloEquBlog.css?1.0" media="all" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <script>
+      $( function() {
+        $( "#draggable" ).draggable({ revert: true });
+        $( "#draggable2" ).draggable({ revert: true, helper: "clone" });
+      } );
+
+      $( function() {
+        $( "#accordion" ).accordion();
+      } );
+
+      $( function() {
+        $( "#tabs" ).tabs();
+      } );
+      </script>
+</head>
+<body>
+  <h1 class="animate__animated animate__backInLeft" >Información sobre el COVID-19</h1>
+  <ul>
+  <li><a href="index.html">Inicio</a></li>
+  <li><a href="covid.html"> ¿Qué es el COVID-19? </a></li>
+  <li><a href="medidas.html"> Medidas preventivas </a></li>
+  <li><a href="test.php">¿Tengo o no COVID-19?</a></li>
+  <li><a href="hospitales.html" id="selected">Hospitales en México</a></li>      
+</ul>
+
+<div id="accordion">
+  <h1 class="animate__animated animate__backInLeft" id="titulo">ACTUAL SITUACIÓN DEL COVID-19 EN MÉXICO</h1>
+  <center><img src="img/mapa.PNG" width="900" height="700" class="animate__animated animate__backInLeft" id="draggable" class="ui-widget-content"/></center>
+</div>
+
+<h1 class="animate__animated animate__backInLeft">Hospitales COVID-19 en México</h1>
+  <p>En México podemos encontrar diversos hospitales que atienden a pacientes específicamente que padecen de COVID-19. Estos son algunos de ellos principalmente:</p>
+
+
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Axapuso</a></li>
+    <li><a href="#tabs-2">Cuatitlán Izcalli</a></li>
+    <li><a href="#tabs-3">Coacalco de Berriozálba</a></li>
+    <li><a href="#tabs-4">Chalco de Díaz Covarrubias</a></li>
+    <li><a href="#tabs-5">Chimalhuacán</a></li>
+    <li><a href="#tabs-6">Ciudad Nezahualcóyotl</a></li>
+    <li><a href="#tabs-7">Ciudad López Mateos</a></li>
+    <li><a href="#tabs-8">Cuautitlán</a></li>
+    <li><a href="#tabs-9">Ecatepec de morelos</a></li>
+    <li><a href="#tabs-10">Ixtapán de la sal</a></li>
+    <li><a href="#tabs-11">Ixtlahuaca de rayón</a></li>
+    <li><a href="#tabs-12">Aenean lacinia</a></li>
+    <li><a href="#tabs-13">Jilotepec de Molína Enríquez</a></li>
+    <li><a href="#tabs-14">Las Mercedes</a></li>
+    <li><a href="#tabs-15">La Paz</a></li>
+    <li><a href="#tabs-16">Metepec</a></li>
+  </ul>
+
+  <div id="tabs-1">
+    <p style="color: black;">LOCALIDAD: Axapuso<br>HOSPITAL: HOSPITAL GENERAL DE AXAPUSCO<br>DIRECCIÓN: AV. BENITO JUÁREZ NO. EXT. SIN NÚMERO NO. INT.
+       SIN NÚMERO, CARRETERA MÉXICO TULANCINGO KM 33 Y CALLE SIN NOMBRE, COL. COL CENTRO C.P. (55940)</p>
+  </div>
+  <div id="tabs-2">
+    <p style="color: black;">LOCALIDAD: Cuatitlán Izcalli<br>HOSPITAL: HOSPITAL GENERAL REGIONAL N° 57 LA QUEBRADA<br>DIRECCIÓN: AV. LA QUEBRADA, STA MARIA GUADALUPE, C.P. 54769</p>
+  </div>
+  <div id="tabs-3">
+    <p style="color: black;">LOCALIDAD: Coacalco de Berriozálba<br>HOSPITAL: HOSPITAL GENERAL REGIONAL N° 98 COACALCO<br>DIRECCIÓN: BLVRD COACALCO 81, VILLA DE LAS FLORES, 
+      55710 SAN FRANCISCO COACALCO</p>
+  </div>
+  <div id="tabs-4">
+    <p style="color: black;">LOCALIDAD: Chalco de Díaz Covarrubias<br>HOSPITAL: HOSPITAL GENERAL REGIONAL N° 98 COACALCO<br>DIRECCIÓN: BOULEVARD CUAUHTÉMOC PONIENTE ENTRE PROLONGACIÓN PEDRO INFANTE Y AVENIDA CANAL
+       NO. EXT. SIN NÚMERO NO. INT. SIN NÚMERO, CHALCO, COL. LA BOMBA C.P. (56600)
+    <br><br>
+    HOSPITAL: HOSPITAL GENERAL REGIONAL N° 71 CHALCO<br>DIRECCIÓN: AV. CUAUHTÉMOC OTE. 26, SANTIAGUITO, C.P.56600</p>
+  </div>
+  <div id="tabs-5">
+    <p style="color: black;">LOCALIDAD: Coacalco de Berriozálba<br>HOSPITAL: H.G. CHIMALHUACÁN<br>AVENIDA DEL PEÑON ESQUINA QUETZALLI NO. EXT. MANZANA 400 LOTE 1 NO.
+       INT. SIN NÚMERO, BARRIO CANTEROS, COL. BARRIO CANTEROS C.P. (56330)</p>
+  </div>
+  <div id="tabs-6">
+    <p style="color: black;">LOCALIDAD: Chalco de Díaz Covarrubias<br>HOSPITAL: H.G. DR. GUSTAVO BAZ PRADA<br>DIRECCIÓN: AVENIDA BORDO DE XOCHIACA ESQUINA AVENIDA ADOLFO LÓPEZ MATEOS NO. EXT. 
+      SIN NÚMERO NO. INT. SIN NÚMERO, TAMAULIPAS, COL. TAMAULIPAS C.P. (57300)
+    <br><br>
+    HOSPITAL: HOSPITAL GENERAL LA PERLA NEZAHUALCOYOTL<br>AVENIDA ESCONDIDA ENTRE PONIENTE 21 Y 25 NO. EXT. SIN NÚMERO NO. INT.
+     SIN NÚMERO, NEZAHUALCÓYOTL, COL. LA PERLA REFORMA C.P. (57800)</p>
+  </div>
+  <div id="tabs-7">
+    <p style="color: black;">LOCALIDAD: Ciudad López Mateos<br>HOSPITAL: H.G. DR.SALVADOR GONZÁLEZ HERREJON<br>BOULEVARD ADOLFO LÓPEZ MATEOS NO. EXT. SIN NÚMERO NO. INT.
+       SIN NÚMERO, ATIZAPAN DE ZARAGOZA, COL. EL PROTRERO C.P. (52975).</p>
+  </div>
+  <div id="tabs-8">
+    <p style="color: black;">LOCALIDAD: Cuatitlán<br>HOSPITAL: H.G. JOSÉ VICENTE VILLADA<br>ALFONSO REYES ESQUINA VENUSTIANO CARRANZA NO. EXT. SIN NÚMERO NO.
+       INT. SIN NÚMERO, VENUSTIANO CARRANZA Y 16 DE SEPTIEMBRE, COL. SANTA MARÍA C.P. (54800).</p>
+  </div>
+  <div id="tabs-9">
+    <p style="color: black;">LOCALIDAD: Ecatepec de Morelos<br>HOSPITAL: H.G. DR. JOSÉ MARÍA RODRÍGUEZ<br>DIRECCIÓN: ALEONA VICARIO NO. EXT. 109 NO. INT. SIN NÚMERO, 
+      AVENIDA CENTRAL Y MIGUEL ALEMÁN, COL. VALLE DE ANAHUAC C.P. (55200))
+    <br><br>
+    HOSPITAL: HOSPITAL GENERAL LAS AMÉRICAS<br>LOTE 1 DE LA MANZANA 10 NO. EXT. SIN NÚMERO
+     NO. INT. SIN NÚMERO, FRACCIONAMIENTO LAS AMÉRICAS, COL. FRACCIONAMIENTO LAS AMÉRICAS C.P. (55076)
+     <br><br>
+    HOSPITAL: HOSPITAL GENERAL REGIONAL N° 196<br>AV. CENTRAL N/A, OLIMPICA, CD Y PUERTO, C.P. 55130)
+     <br><br>
+    HOSPITAL: HOSPITAL GENERAL REGIONAL N° 76 XALOSTOC<br>XALOSTOC, URBANA IXHUATEPEC, C.P. 55349 )
+     <br><br>
+    HOSPITAL: HHOSPITAL GENERAL REGIONAL N°68 TULPETLAC<br>VÍA MORELOS KM. 19.5 CARRETERA A PACHUCA COL. C.P. 54700 ECATEPEC EDO. DE MEX. ORIENTE)</p>
+  </div>
+
+  <div id="tabs-10">
+    <p style="color: black;">LOCALIDAD: Ixtapán de la sal<br>HOSPITAL: HOSPITAL GENERAL IXTAPAN DE LA SAL<br>BOULEVARD TURISTICO IXTAPAN DE LA SAL-TONATICO ESQUINA LUIS DONALDO
+       COLOSIO NO. EXT. SIN NÚMERO NO. INT. SIN NÚMERO, IXTAPAN DE LA SAL, COL. EL SALITRE C.P. (51900)</p>
+  </div>
+  <div id="tabs-11">
+    <p style="color: black;">LOCALIDAD: Ixtlahuaca de rayón<br>HOSPITAL: HOSPITAL GENERAL IXTLAHUACA VALENTIN GÓMEZ FARÍAS<br>CARRETERA IXTLAHUACA-JIQUIPILCO KM. 1 NO. EXT. SIN NÚMERO 
+      NO. INT. SIN NÚMERO, IXTLAHUACA, COL. BARRIO DE SAN PEDRO, LA CABECERA C.P. (50740)</p>
+  </div>
+  <div id="tabs-12">
+    <p style="color: black;">LOCALIDAD: Ixtlahuaca de rayón<br>HOSPITAL: HOSPITAL GENERAL IXTLAHUACA VALENTIN GÓMEZ FARÍAS<br>CARRETERA IXTLAHUACA-JIQUIPILCO KM. 1 NO. EXT. SIN NÚMERO 
+      NO. INT. SIN NÚMERO, IXTLAHUACA, COL. BARRIO DE SAN PEDRO, LA CABECERA C.P. (50740)</p>
+  </div>
+  <div id="tabs-13">
+    <p style="color: black;">LOCALIDAD: Jilotepec de Molína Enríquez<br>HOSPITAL: H.G. JILOTEPEC<br>AVENIDA REFORMA ESQUINA LIBRAMIENTO NO. EXT. SIN NÚMERO NO. INT. 
+      SIN NÚMERO, LIBRAMIENTO Y DEDENCO, COL. EL DENI C.P. (54240).</p>
+  </div>
+  <div id="tabs-14">
+    <p style="color: black;">LOCALIDAD: Las Mercedes<br>HOSPITAL: HOSPITAL GENERAL ATLACOMULCO<br>ABOULEVARD JORGE JIMÉNEZ CANTÚ SECCIÓN 3 RANCHO LAS MERCEDES NO. EXT. SIN 
+      NÚMERO NO. INT. SIN NÚMERO, HOSPITAL GENERAL ATLACOMULCO, COL. HOSPITAL GENERAL ATLACOMULCO C.P. (50450)</p>
+  </div>
+  <div id="tabs-15">
+    <p style="color: black;">LOCALIDAD: La Paz<br>HOSPITAL: HOSPITAL GENERAL REGIONAL N° 53 LOS REYES LA PAZ<br>CARRETERA FEDERAL MÉXICO-PACHUCA, KM 17.5, VILLA DE LA PAZ,
+       RINCON DE LOS REYES, C.P. 56400, LOS REYES ACAQUILPAN, MÉXICO.</p>
+  </div>
+  <div id="tabs-16">
+    <p style="color: black;">LOCALIDAD: Metepec<br>HOSPITAL: HOSPITAL GENERAL REGIONAL N° 251 METEPEC<br>BOSQUES DE METEPEC, LLANO GRANDE, C.P. 52148.</p>
+  </div>
+</div>
+
+</body>
+</html>
